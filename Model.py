@@ -54,7 +54,7 @@ X_test2.index = X_test.index.values
 X_test = X_test2
 
 
-#Model Building
+# Model Building
 
 # Logistic Regression
 model = LogisticRegression(random_state = 0, penalty = 'l1', solver = 'saga')
